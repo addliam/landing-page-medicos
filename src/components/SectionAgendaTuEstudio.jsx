@@ -6,7 +6,7 @@ import Hospital from '../assets/icons/hospital.svg'
 
 const SectionAgendaTuEstudio = () => {
   return (
-    <section className='layout-y layout-x flex sm:flex-row flex-col-reverse justify-between relative '>
+    <section className='border-2 border-primary layout-y layout-x flex sm:flex-row flex-col-reverse justify-between relative '>
         <div className='green__gradient w-[520px] h-[520px] absolute -left-[200px] bottom-[20px]'></div>
         <div className='z-10 mt-16 sm:mt-0 green_blue_gradient rounded-b-[14rem] h-[340px] w-[340px] sm:h-[420px] sm:w-[400px] border-[10px] sm:border-[14px] border-[#FFFFFF] relative'>
             <img className='absolute left-[35px] -bottom-[2px] h-[350px] w-[420px] sm:h-[400px] sm:w-[400px] ' src={Doctors2} width="400px" height="420px" alt="doctores varon y mujer" />

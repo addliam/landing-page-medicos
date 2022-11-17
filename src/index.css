@@ -11,6 +11,10 @@
 .green_blue_gradient{
     background: linear-gradient(180deg, #58C0A7 0%, #21BADE 100%);    
 }
+.green_blue_gradient_y{
+    background: linear-gradient(90deg, #57BFA6 17.96%, #20A2C6 92.41%);
+}
+
 .layout-y{
     padding-top: 6rem;
     padding-bottom: 6rem;

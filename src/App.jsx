@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import HeroBanner from './components/HeroBanner'
 import SectionAgendaTuEstudio from './components/SectionAgendaTuEstudio'
+import SectionInformacionSobreElEstudio from './components/SectionInformacionSobreElEstudio'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <HeroBanner />
       <SectionAgendaTuEstudio />
+      <SectionInformacionSobreElEstudio />
     </main>
   )
 }
