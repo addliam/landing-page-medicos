@@ -1,8 +1,12 @@
 import React from 'react'
-
+import Navbar from './components/Navbar'
+import HeroBanner from './components/HeroBanner'
 const App = () => {
   return (
-    <div>App</div>
+    <main>
+      <Navbar />
+      <HeroBanner />
+    </main>
   )
 }
 

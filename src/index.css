@@ -2,3 +2,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.green__gradient{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 134, 112, 0.13) 0%, rgba(0, 134, 112, 0.13) 44.87%, rgba(0, 71, 255, 0.013) 80.82%);
+}
