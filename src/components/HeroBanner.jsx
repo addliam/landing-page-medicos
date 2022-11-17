@@ -7,18 +7,19 @@ import './styles/HeroBanner.css'
 
 const HeroBanner = () => {
   return (
-    <section className='px-28 flex flex-row items-end justify-between overflow-x-clip relative border-2 border-black pb-20'>
+    <section className='px-[22px] sm:px-28 flex flex-col sm:flex-row items-start sm:items-end justify-between overflow-x-clip relative border-2 border-black pb-20'>
         <div className='max-w-[460px] mb-4'>
-            <h1 className='text-[3.6rem] leading-[4.25rem] mt-16 font-semibold text-blueDark tracking-tight'>Encuentra tu especialista y pide cita</h1>
-            <p className='mt-4 text-grey'>180 000 profesionales estan aqui para ayudarte</p>
-            <button className='px-12 py-3 mt-14 bg-primary hover:bg-[#49a18b] text-[#FFFFFF] rounded-md'>
+            <h1 className='text-[28px] sm:text-[3.6rem] leading-[28px] sm:leading-[4.25rem] mt-16 font-semibold text-blueDark tracking-tight'>Encuentra tu <br className='block sm:hidden' /> especialista y pide cita</h1>
+            <p className='max-w-[300px] sm:max-w-none mt-4 text-[20px] sm:text-base text-grey'>180 000 profesionales estan aqui para ayudarte</p>
+            <button className='w-[20rem] sm:w-auto px-12 py-3 mt-8 sm:mt-14 bg-primary hover:bg-[#49a18b] text-[#FFFFFF] rounded-md'>
                 Ver especialistas
             </button>        
         </div>
         <div className='relative mt-10'>
-            <div className='bg-primary z-10 relative w-[380px] h-[400px] border-[14px] border-[#FFFFFF]  rounded-t-[200px] rounded-b-[20px] mr-20'>
-                <img className='absolute right-[40px] -bottom-1' width="250px" height="280px" src={Doctor1} alt="doctor en bata blanca" />
-
+            <div className='bg-primary ml-8 z-10 relative w-[300px] h-[320px] sm:w-[380px] sm:h-[400px] border-[14px] border-[#FFFFFF] rounded-t-[200px] rounded-b-[20px] mr-20'>
+                <div className=''>
+                    <img className='absolute right-[30px] sm:right-[40px] -bottom-0 w-[200px] h-[290px] sm:w-[250px] sm:h-[360px]' width="250px" height="360px" src={Doctor1} alt="doctor en bata blanca" />
+                </div>
                 <div className='z-50 border-2 border-[#FFFFFF] rounded-[14px] bg-[#CEEBF3E6] w-[58px] h-[58px] absolute bottom-[80px] -left-[36px] floating_animation'>
                     <img className='border-none z-50' width="58px" height="58px" src={Disability} alt="disability" />
                 </div>
