@@ -1,0 +1,33 @@
+.floating_animation{
+    -webkit-animation: floating 4s ease-in-out infinite; 
+    -moz-animation: floating 4s ease-in-out infinite; 
+    -o-animation: floating 4s  ease-in-out infinite; 
+    animation: floating 4s ease-in-out infinite; 
+}
+
+@-webkit-keyframes floating {
+    0%   {-webkit-transform: translate(0,0px)}
+    50%  {-webkit-transform: translate(0px,16px)}
+    100% {-webkit-transform: translate(0,0px)}      
+}
+
+@-moz-keyframes floating {
+    0%   {-moz-transform: translate(0,0px)}
+    50%  {-moz-transform: translate(0px,16px)}
+    100% {-moz-transform: translate(0,0px)}      
+}
+
+@-o-keyframes floating {
+    0%   {-o-transform: translate(0,0px)}
+    50%  {-o-transform: translate(0px,16px)}
+    100% {-o-transform: translate(0,0px)}  
+}
+
+@keyframes floating {
+    /* from { transform: rotate(0deg) translateX(20px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(20px) rotate(-360deg); } */
+    0%   {transform: translate(0,0px)}
+    50%  {transform: translate(0px,16px)}
+    100% {transform: translate(0,0px)}  
+}
+
