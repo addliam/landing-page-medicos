@@ -19,8 +19,8 @@ const FooterListComponent = ({data}) => {
             <span className='text-blueDark font-semibold text-lg'>{data.tema}</span>
             <ul className='mt-1'>
                 {
-                    data.items.map((item)=>(
-                        <li className='text-[#455565] text-base py-[6px] sm:py-1'>
+                    data.items.map((item, indx)=>(
+                        <li key={indx} className='text-[#455565] hover:text-[#252e36] text-base py-[6px] sm:py-1'>
                             <a href={item.enlace}>
                             {item.nombre}
                             </a>

@@ -5,6 +5,7 @@ import Avatar2 from '../assets/images/Img-opinions-2.png'
 import Avatar3 from '../assets/images/Img-opinions-3.png'
 import Avatar4 from '../assets/images/Img-opinions-4.png'
 import dataOpinions from './static/opinions.json'
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 const SectionOpiniones = () => {
   return (
@@ -15,7 +16,9 @@ const SectionOpiniones = () => {
         <img className='absolute z-50 sm:right-[30px] sm:bottom-[240px] right-[30px] bottom-[120px] sm:w-[75px] sm:h-[75px] w-[60px] h-[60px]' src={Avatar4} width="75px" height="75px" alt="avatar" />
 
         <div className='absolute z-50 w-full'>
+          <AnimationOnScroll animateIn='animate__zoomInUp' animateOnce={true}>
             <h4 className='z-50 section_title text-center'>Opiniones mas recientes</h4>
+          </AnimationOnScroll>
             <OpinionsComponent data={dataOpinions} />
         </div>
         <div className='z-0 flex flex-row justify-center items-center w-full '>
