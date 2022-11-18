@@ -35,7 +35,7 @@ const FooterListComponent = ({data}) => {
 
 const Footer = () => {
   return (
-    <footer className='layout-x layout-y flex flex-col sm:flex-row justify-between bg-[#E9F6FC]'>
+    <footer className='z-50 layout-x layout-y flex flex-col sm:flex-row justify-between bg-[#E9F6FC]'>
         <div className='flex flex-col'>
             <a href="/" className='flex flex-row gap-2 items-center '>
                 <img src={Logo} height='48px' width='48px' className='w-8 h-8 sm:w-9 sm:h-9' alt="tusalud logo" />
