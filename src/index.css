@@ -33,6 +33,21 @@
     font-size: 1rem;
     color: #4B5868;
 }
+.hover_scale{
+    transition: transform 150ms ease-in-out;
+    transform: scale(1.00);
+}
+.hover_scale:hover{
+    transform: scale(1.08);
+}
+@keyframes smoothScale {
+    from{
+        transform: scale(1);
+    }to{
+        transform: scale(1.08);
+    }
+}
+
 @media screen and (max-width: 768px){
     .layout-x{
         padding-left: 22px;

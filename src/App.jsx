@@ -5,6 +5,7 @@ import SectionAgendaTuEstudio from './components/SectionAgendaTuEstudio'
 import SectionInformacionSobreElEstudio from './components/SectionInformacionSobreElEstudio'
 import SectionOpiniones from './components/SectionOpiniones'
 import SectionAgendaTACTorax from './components/SectionAgendaTACTorax'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <SectionInformacionSobreElEstudio />
       <SectionOpiniones />
       <SectionAgendaTACTorax />
+      <Footer />
     </main>
   )
 }

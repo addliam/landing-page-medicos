@@ -1,0 +1,55 @@
+[
+{
+    "tema": "Menu",
+    "items": [{
+        "nombre": "Cita",
+        "enlace": "cita"
+    },
+    {
+        "nombre": "Doctor",
+        "enlace": "doctor"
+    },    
+    {
+        "nombre": "Covid-19",
+        "enlace": "covid-19"
+    },    
+    {
+        "nombre": "Consulta",
+        "enlace": "consulta"
+    }]
+},
+{
+    "tema": "Legal",
+    "items": [{
+        "nombre": "Politica de privacidad",
+        "enlace": "politica-de-privacidad"
+    },
+    {
+        "nombre": "Terminos de servicio",
+        "enlace": "terminos-de-servicio"
+    },    
+    {
+        "nombre": "FAQ",
+        "enlace": "frequent-answers-questions"
+    }]
+},
+{
+    "tema": "Sobre nosotros",
+    "items": [{
+        "nombre": "Testimonios",
+        "enlace": "testimonios"
+    },
+    {
+        "nombre": "Nuestra gestion",
+        "enlace": "nuestra-gestion"
+    },    
+    {
+        "nombre": "Nuestra historia",
+        "enlace": "nuestra-historia"
+    },    
+    {
+        "nombre": "Carrera",
+        "enlace": "carrera"
+    }]
+}
+]
