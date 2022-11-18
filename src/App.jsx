@@ -4,6 +4,7 @@ import HeroBanner from './components/HeroBanner'
 import SectionAgendaTuEstudio from './components/SectionAgendaTuEstudio'
 import SectionInformacionSobreElEstudio from './components/SectionInformacionSobreElEstudio'
 import SectionOpiniones from './components/SectionOpiniones'
+import SectionAgendaTACTorax from './components/SectionAgendaTACTorax'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <SectionAgendaTuEstudio />
       <SectionInformacionSobreElEstudio />
       <SectionOpiniones />
+      <SectionAgendaTACTorax />
     </main>
   )
 }

@@ -33,7 +33,6 @@
     font-size: 1rem;
     color: #4B5868;
 }
-
 @media screen and (max-width: 768px){
     .layout-x{
         padding-left: 22px;
