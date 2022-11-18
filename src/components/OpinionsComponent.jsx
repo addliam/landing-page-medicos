@@ -5,7 +5,7 @@ const IndexOpinion = ({indx, len, indexHandler}) => {
         console.log(`You have selected value: ${value}`);
     }
     return (
-        <div className='flex flex-row gap-2 mx-auto w-full justify-center mt-4'>
+        <div className='flex flex-row gap-2 mx-auto w-full justify-center'>
             {
                 Array(len).fill('x').map((item, index)=>{
                     return (index === indx) ? (
@@ -24,7 +24,7 @@ const OpinionsComponent = ({data}) => {
 
     return (
     <>
-    <div className='z-50 quote mx-auto mt-8 w-[750px] h-[310px] rounded-xl px-8 py-8 bg-[#FFFFFF]'>
+    <div className='z-50 quote mx-auto mt-8 w-full sm:w-[750px] h-[310px] rounded-xl px-8 py-8 bg-[#FFFFFF]'>
     <figure className='flex flex-col h-full justify-between'>
         <blockquote className='max-w-[500px] mx-auto'>
             <p className='text-lg font-medium text-[#515C7C] text-center'>
@@ -36,7 +36,7 @@ const OpinionsComponent = ({data}) => {
         </figcaption>                    
     </figure>
     </div>
-    <div>
+    <div className='mt-6 sm:mt-4'>
         <IndexOpinion indx={selectedIndex} len={len} indexHandler={setSelectedIndex} />
     </div>
     </>

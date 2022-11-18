@@ -8,11 +8,11 @@ import dataOpinions from './static/opinions.json'
 
 const SectionOpiniones = () => {
   return (
-    <section className='mx-28 layout-y relative'>
-        <img className='absolute z-50 left-[90px] top-[112px] ' src={Avatar1} width="75px" height="75px" alt="avatar" />
-        <img className='absolute z-50 bottom-[200px] left-[15px] ' src={Avatar2} width="50px" height="50px" alt="avatar" />
-        <img className='absolute right-[120px] top-[130px] z-50 ' src={Avatar3} width="50px" height="50px" alt="avatar" />
-        <img className='absolute z-50 right-[30px] bottom-[240px] ' src={Avatar4} width="75px" height="75px" alt="avatar" />
+    <section className='sm:mx-28 mx-[22px] py-24 sm:layout-y relative'>
+        <img className='absolute z-50 left-[6px] top-[30px] sm:left-[90px] sm:top-[112px] sm:w-[75px] sm:h-[75px]  w-[60px] h-[60px]' src={Avatar1} width="75px" height="75px" alt="avatar" />
+        <img className='absolute z-50 bottom-[140px] left-[25px] sm:bottom-[200px] sm:left-[15px] sm:w-[50px] sm:h-[50px] w-[40px] h-[40px]' src={Avatar2} width="50px" height="50px" alt="avatar" />
+        <img className='absolute sm:right-[120px] sm:top-[130px] right-[2px] top-[38px] z-50 sm:w-[50px] sm:h-[50px] w-[40px] h-[40px]' src={Avatar3} width="50px" height="50px" alt="avatar" />
+        <img className='absolute z-50 sm:right-[30px] sm:bottom-[240px] right-[30px] bottom-[120px] sm:w-[75px] sm:h-[75px] w-[60px] h-[60px]' src={Avatar4} width="75px" height="75px" alt="avatar" />
 
         <div className='absolute z-50 w-full'>
             <h4 className='z-50 section_title text-center'>Opiniones mas recientes</h4>
