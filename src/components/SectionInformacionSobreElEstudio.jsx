@@ -3,7 +3,7 @@ import Doctor3 from '../assets/images/Img-doctors-3.png'
 
 const SectionInformacionSobreElEstudio = () => {
   return (
-    <section className="border-2 border-black layout-y pl-[22px] sm:pl-28 sm:pr-0 flex flex-col sm:flex-row justify-between">
+    <section className="layout-y pl-[22px] sm:pl-28 sm:pr-0 flex flex-col sm:flex-row justify-between">
       <div className='pr-[22px] sm:pr-0'>
         <h4 className='section_title w-[100%] sm:max-w-[480px] leading-[1.3em] '>Informacion necesaria sobre el estudio en un solo lugar</h4>
         <ul className='mt-8'>

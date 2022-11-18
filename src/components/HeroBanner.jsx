@@ -7,7 +7,7 @@ import './styles/HeroBanner.css'
 
 const HeroBanner = () => {
   return (
-    <section className='px-[22px] sm:px-28 flex flex-col sm:flex-row items-start sm:items-end justify-between overflow-x-clip relative border-2 border-black pb-20'>
+    <section className='px-[22px] sm:px-28 flex flex-col sm:flex-row items-start sm:items-end justify-between overflow-x-clip relative pb-20'>
         <div className='max-w-[460px] mb-4'>
             <h1 className='text-[28px] sm:text-[3.6rem] leading-[28px] sm:leading-[4.25rem] mt-16 font-semibold text-blueDark tracking-tight'>Encuentra tu <br className='block sm:hidden' /> especialista y pide cita</h1>
             <p className='max-w-[300px] sm:max-w-none mt-4 text-[20px] sm:text-base text-grey'>180 000 profesionales estan aqui para ayudarte</p>

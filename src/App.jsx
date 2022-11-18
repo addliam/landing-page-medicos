@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import HeroBanner from './components/HeroBanner'
 import SectionAgendaTuEstudio from './components/SectionAgendaTuEstudio'
 import SectionInformacionSobreElEstudio from './components/SectionInformacionSobreElEstudio'
+import SectionOpiniones from './components/SectionOpiniones'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <HeroBanner />
       <SectionAgendaTuEstudio />
       <SectionInformacionSobreElEstudio />
+      <SectionOpiniones />
     </main>
   )
 }
