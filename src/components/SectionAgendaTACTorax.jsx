@@ -4,7 +4,7 @@ import RectanguloVerdeWave from '../assets/images/RectanguloVerdeWaves.svg'
 
 const SectionAgendaTACTorax = () => {
   return (
-    <section className="layout-y w-full">
+    <section className="layout-y w-full overflow-hidden">
         <div style={{backgroundImage: `url(${RectanguloVerdeWave})`}} className='border-[14px] border-[#fffffff1]  w-[90%] h-[360px] sm:w-[1121px] sm:h-[400px] mx-auto block relative'>            
             <AnimationOnScroll animateIn='animate__fadeInUp'>
               <h4 className="leading-[1.2] sm:leading-normal pt-[4.5rem] block text-center text-[1.8rem] sm:text-[2.15rem] text-blueDark font-semibold">¿Tuviste COVID y aun presentas sintomas?</h4>
